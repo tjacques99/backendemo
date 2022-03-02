@@ -16,12 +16,12 @@ public class BackendemoApplication implements CommandLineRunner{
 
 	public static void main(String[] args) {
 		SpringApplication.run(BackendemoApplication.class, args);
-		System.out.print("running bitches");	
+		System.out.print("Backend is running!");	
 	}
 	
 	@Override
 	public void run(String ...args) throws Exception{
-		producer.sendMyMessage("this thing works");
+		producer.sendMyMessage("buy more ETH");
 	}
 
 }
